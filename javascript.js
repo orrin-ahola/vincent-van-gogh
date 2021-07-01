@@ -75,41 +75,41 @@ function hide_drop_down_menu() {
 
 
 
-var x = 0;
+// var x = 0;
 
-function doSlides() {
+// function doSlides() {
 
-switch (x) {
-    case 0:
-        $('.header').css({"background-image": 'url('+'assets/Harvest-at-La-Crau-with-Montmajour-in-the-Background.jpg'+')'});
-        break;
-    case 1:
-        $('.header').css({"background-image": 'url('+'assets/post-impressionist-1424183.jpg'+')'});
-        break;
-    case 2:
-        $('.header').css({"background-image": 'url('+'assets/View-of-Arles-with-Irises-in-the-Foreground.jpg'+')'});
-        break;
-    case 3:
-        $('.header').css({"background-image": 'url('+'assets/Sunset-Wheat-Fields-Near-Arles'+')'});
-        break;
-    case 4:
-        $('.header').css({"background-image": 'url('+'assets/post-impressionist-1428128'+')'});
-        break;
-    case 5:
-        $('.header').css({"background-image": 'url('+'assets/post-impressionist-1428136.jpg'+')'});
-        break;
-    case 6:
-        $('.header').css({"background-image": 'url('+'assets/The-Sower-4.jpg'+')'});
-        break;
-    }
+// switch (x) {
+//     case 0:
+//         $('.header').css({"background-image": 'url('+'assets/Harvest-at-La-Crau-with-Montmajour-in-the-Background.jpg'+')'});
+//         break;
+//     case 1:
+//         $('.header').css({"background-image": 'url('+'assets/post-impressionist-1424183.jpg'+')'});
+//         break;
+//     case 2:
+//         $('.header').css({"background-image": 'url('+'assets/View-of-Arles-with-Irises-in-the-Foreground.jpg'+')'});
+//         break;
+//     case 3:
+//         $('.header').css({"background-image": 'url('+'assets/Sunset-Wheat-Fields-Near-Arles'+')'});
+//         break;
+//     case 4:
+//         $('.header').css({"background-image": 'url('+'assets/post-impressionist-1428128'+')'});
+//         break;
+//     case 5:
+//         $('.header').css({"background-image": 'url('+'assets/post-impressionist-1428136.jpg'+')'});
+//         break;
+//     case 6:
+//         $('.header').css({"background-image": 'url('+'assets/The-Sower-4.jpg'+')'});
+//         break;
+//     }
 
-    if (x < 6) {
-        x = x + 1;
-    } else {
-        x = 0;
-    }
+//     if (x < 6) {
+//         x = x + 1;
+//     } else {
+//         x = 0;
+//     }
 
-    setTimeout(function(){ doSlides(); }, 8000); 
+//     setTimeout(function(){ doSlides(); }, 8000); 
     
-}
+// }
 

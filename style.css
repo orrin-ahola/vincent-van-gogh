@@ -20,6 +20,7 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: 0 2.5rem;
+    background-image: url('assets/Harvest-at-La-Crau-with-Montmajour-in-the-Background.jpg');
     /* background-image: url(/assets/oil-painting-1393556.jpg); */
     /* -webkit-transition: background 1.5s linear;
     -moz-transition: background 1.5s linear;
@@ -44,10 +45,10 @@ body {
     opacity: 0.5;
 } */
 
-header h1 {
+/* header h1 {
     position: relative;
     color: var(--clr-neutral-100);
-}
+} */
 
 body,
 h1,
@@ -126,7 +127,7 @@ nav {
 
 nav ul {
     list-style: none;
-    display: flex;
+    display: none;
     text-align: right;
     flex-direction: column;
     top: 100%;
@@ -212,6 +213,7 @@ section {
     }
 
     nav ul {
+        display: flex !important;
         flex-direction: row;
         padding-right: 2rem;
         margin: 0;
